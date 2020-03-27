@@ -85,7 +85,7 @@ jobs:
           
       - name: Update Target.mk
         run: |
-          cd /home/runner/Nanopi-R1S-H3-by-Actions/Nanopi-R1S-H3-by-Actions/friendlywrt/include 
+          cd /home/runner/work/Nanopi-R1S-H3-by-Actions/Nanopi-R1S-H3-by-Actions/friendlywrt/include 
           sed -i 's/dnsmasq /dnsmasq-full default-settings luci /' target.mk    
           
       - name: Update Feeds
